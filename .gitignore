@@ -1,0 +1,12 @@
+# 环境变量（含密钥，禁止提交到 GitHub）
+.env
+.env.local
+.env.*.local
+
+# 依赖与构建
+node_modules/
+npm-debug.log*
+
+# Vercel / 系统
+.vercel
+.DS_Store
